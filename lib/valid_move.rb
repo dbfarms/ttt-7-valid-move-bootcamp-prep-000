@@ -1,10 +1,10 @@
 # code your #valid_move? method here
 def valid_move?(board, index)
-  if board[index-1] != "X" || "O"
-    puts board[index-1]
+  if board[index] != "X" || "O"
+    puts board[index]
     return true
   else
-    puts board[index-1]
+    puts board[index]
     return false
   end
 end
